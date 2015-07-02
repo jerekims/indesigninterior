@@ -1,0 +1,101 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans|Roboto|Oswald|Lato|Droid+Sans|PT+Sans|Source+Sans+Pro|Open+Sans+Condensed:300|Roboto+Condensed|Droid+Serif|Ubuntu|Raleway|Montserrat|PT+Sans+Narrow|Roboto+Slab|Lobster|Arimo|Yanone+Kaffeesatz|Lora|Bitter);
+
+html, body {
+    padding:0;
+    margin:0;
+}
+
+.top-navigation{
+    border-radius: 0;
+}
+
+.dropdbut{
+	font-size:2rem;
+}
+
+nav .brand-logo{
+	margin-left: 25px;
+    text-decoration: none;
+}
+
+.slider .slides li .caption{
+    color:#000000;
+    font-size: 50px;
+}
+
+.grey-text.text-lighten-3{
+    color:#000000 !important;
+    font-size: 30;
+}
+
+.slider-texts{
+	background-color:rgba(189, 195, 199,0.7);
+	width: 100% !important;
+	left:0% !important;
+	top:65% !important;
+}
+
+.navbar-fixed nav{
+	/*height: 70px;*/
+}
+
+nav ul a{
+	margin-top: 10px;
+	font-size: 18px;
+	font-family: "Open+Sans";
+	color:#FFFFFF;
+}
+
+.navbar-default .navbar-nav>li>a{
+	color:#FFFFFF;
+	font-family: "Open+Sans";
+}
+
+nav ul a:hover{
+	font-size: 18px;
+	/*font-family: "Roboto";*/
+	text-decoration: none;
+	border-bottom: 4px solid #ecf0f1;
+	color:#000000;
+	/*z-index: 999999;*/
+}
+
+.navbar-default{
+	background-color: #1abc9c;
+	border-color:#1abc9c ;
+}
+
+.slider .indicators .indicator-item{
+	background-color: rgba(127, 140, 141,1.0);
+}
+
+.slider .indicators .indicator-item.active{
+	background-color: rgba(22, 160, 133,1.0);
+}
+
+.parallax-container{
+	margin-top:20px;
+	height:300px;
+}
+
+.card{
+	margin-left:5px;
+	margin-right: 5px;
+}
+
+.card .card-image img{
+	height:200px;
+	width: 100%;
+	left: 0;
+	right:0;
+}
+
+.home-card{
+	background-color: rgba(52, 73, 94, 0.7);
+}
+
+footer.page-footer{
+	margin-top:0px;
+	border-top:0px;
+	/*padding-top: 0px;*/
+}
