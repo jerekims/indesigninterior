@@ -46,6 +46,12 @@ nav ul a{
 	color:#FFFFFF;
 }
 
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+	color:#000000;
+	background-color: #16a085;
+	border-color: #FFFFFF;
+}
+
 .navbar-default .navbar-nav>li>a{
 	color:#FFFFFF;
 	font-family: "Open+Sans";
@@ -91,7 +97,10 @@ nav ul a:hover{
 }
 
 .home-card{
-	background-color: rgba(52, 73, 94, 0.7);
+	/*background-color: rgba(52, 73, 94, 0.7);*/
+	margin-right: 30px;
+	margin-left: 70px !important;
+	margin-top: 20px;
 }
 
 footer.page-footer{
