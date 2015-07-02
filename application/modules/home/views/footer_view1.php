@@ -27,7 +27,7 @@
           <div class="footer-copyright">
             <div class="container">
             © 2015 All Rights Reserved
-            <a class="grey-text text-lighten-4 right" href="#!">indesigninteriorltd@yahoo.com</a>
+            <a class="grey-text text-lighten-4 right mail" href="#!">indesigninteriorltd@yahoo.com</a>
             </div>
           </div>
         </footer>

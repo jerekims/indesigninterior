@@ -9,6 +9,24 @@ html, body {
     border-radius: 0;
 }
 
+.navbar-nav>li>.dropdown-menu>li:hover{
+  background-color: #FFFFFF;
+}
+
+.dropdown-menu>li>a{
+    color:#000000;
+    background-color: #FFFFFF;
+}
+
+nav ul li{
+
+}
+
+.dropdown-menu>li>a:hover{
+    color: #FFFFFF;
+    background-color:#000000;
+}
+
 .dropdbut{
 	font-size:2rem;
 }
@@ -207,4 +225,8 @@ a.social:hover{
 .instagram{
 	color:#993300;
 	font-weight: bold;
+}
+
+.mail{
+    letter-spacing: 3px;
 }

@@ -69,7 +69,7 @@
       <div class="parallax"><img src="<?php echo base_url(). 'assets/images/home_designing.jpg'?>"></div>
     </div>
 
-    <!-- <div class="container"> -->
+   
 
     <div class="row">
         <div class="col s12">
@@ -116,6 +116,6 @@
             </div>
           </div>
 
-          <!-- </div> -->
+       
         </div>
       </div>
