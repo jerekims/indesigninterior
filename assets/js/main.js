@@ -21,6 +21,37 @@ $(document).ready(function(){
     $(document).ready(function(){
       $('.parallax').parallax();
     });
+
+
+    $('#facebook').hover(function(){
+    	$('#social-facebook').addClass('facebook');
+    }, function(){
+    	$('#social-facebook').removeClass('facebook');
+    });
+
+     $('#instagram').hover(function(){
+    	$('#social-instagram').addClass('instagram');
+    }, function(){
+    	$('#social-instagram').removeClass('instagram');
+    });
+
+     $('#twitter').hover(function(){
+    	$('#social-twitter').addClass('twitter');
+    }, function(){
+    	$('#social-twitter').removeClass('twitter');
+    });
+ 
+     $('#googleplus').hover(function(){
+    	$('#social-googleplus').addClass('googleplus');
+    }, function(){
+    	$('#social-googleplus').removeClass('googleplus');
+    });
+
+
+
+
+
+
         
 
 	$(function () {

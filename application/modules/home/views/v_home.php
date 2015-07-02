@@ -69,11 +69,12 @@
       <div class="parallax"><img src="<?php echo base_url(). 'assets/images/home_designing.jpg'?>"></div>
     </div>
 
+    <!-- <div class="container"> -->
 
     <div class="row">
         <div class="col s12">
 
-          <div class="card col s3 home-card">
+          <div class="card col-md-3 offset-s12 home-card">
             <div class="card-image">
               <img src="<?php echo base_url(). 'assets/images/portfolio_panel.jpg'?>">
               <span class="card-title title-block">Portfolio</span>
@@ -87,7 +88,7 @@
             </div>
           </div>
 
-          <div class="card col s3 home-card">
+          <div class="card col-md-3 offset-s6 home-card">
             <div class="card-image">
               <img src="<?php echo base_url(). 'assets/images/services_panel.jpg'?>">
               <span class="card-title title-block">Services</span>
@@ -101,7 +102,7 @@
             </div>
           </div>
 
-          <div class="card col s3 home-card">
+          <div class="card col-md-3 offset-s6 home-card">
             <div class="card-image">
               <img src="<?php echo base_url(). 'assets/images/contacts_panel.jpg'?>">
               <span class="card-title title-block">Contacts</span>
@@ -115,6 +116,6 @@
             </div>
           </div>
 
-
+          <!-- </div> -->
         </div>
       </div>

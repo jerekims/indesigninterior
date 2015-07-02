@@ -99,7 +99,7 @@ nav ul a:hover{
 .home-card{
 	/*background-color: rgba(52, 73, 94, 0.7);*/
 	margin-right: 30px;
-	margin-left: 70px !important;
+	margin-left: 65px !important;
 	margin-top: 20px;
 	padding-left: 0 !important;
 	padding-right:  0 !important;
@@ -146,4 +146,65 @@ div.vertical-line{
   float: left; 
   border: 1px inset; /* This is default border style for <hr> tag */
   margin-right: 10px;
+}
+
+.home-footer-title{
+	font-family: "Ubuntu";
+}
+
+.limited{
+	font-size: 17px;
+	letter-spacing: 5px;
+}
+
+.reach{
+	font-size: 15px;
+}
+
+.home-contacts-title{
+    font-family: "Montserrat";
+    text-decoration: underline;
+}
+
+.social-contacts{
+	font-size: 20px;
+	
+}
+
+a.social{
+	color:#000000;
+}
+
+a.social:hover{
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.social{
+	margin-left: 15px;
+}
+
+.social-icon{
+	padding-right: 20px;
+	padding-right: 15px;
+}
+
+.facebook{
+	color:rgba(41, 128, 185,1.0);
+	font-weight: bold;
+}
+
+.googleplus{
+	color:rgba(231, 76, 60,1.0);
+	font-weight: bold;
+}
+
+.twitter{
+	color:rgba(52, 152, 219,1.0);
+	font-weight: bold;
+}
+
+.instagram{
+	color:#993300;
+	font-weight: bold;
 }
