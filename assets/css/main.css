@@ -9,6 +9,10 @@ html, body {
     border-radius: 0;
 }
 
+.navbar-nav>li>.dropdown-menu>li{
+	width: 100%;
+}
+
 .navbar-nav>li>.dropdown-menu>li:hover{
   background-color: #FFFFFF;
 }
@@ -16,6 +20,7 @@ html, body {
 .dropdown-menu>li>a{
     color:#000000;
     background-color: #FFFFFF;
+    
 }
 
 nav ul li{
