@@ -15,10 +15,10 @@
                <div class="vertical-line"></div>
                 <h5 class="white-text"><span class="home-contacts-title">Contact Details</span></h5>
                 <ul class="social-contacts">
-                  <li id="facebook"><a class="social facebook" href="#!"><i id="social-facebook" class="social-icon ion-social-facebook"></i> &nbsp Facebook</a></li>
-                  <li id="instagram"><a class="social instagram" href="#!"><i id="social-instagram" class="social-icon ion-social-instagram"></i> &nbspInstagram</a></li>
-                  <li id="twitter"><a class="social twitter" href="#!"><i id="social-twitter" class="social-icon ion-social-twitter"></i> Twitter</a></li>
-                  <li id="googleplus"><a class="social googleplus" href="#!"><i id="social-googleplus" class="social-icon ion-social-googleplus"></i> Google +</a></li>
+                  <li id="facebook"><a class="social afacebook" href="#!"><i id="social-facebook" class="social-icon ion-social-facebook"></i> &nbsp Facebook</a></li>
+                  <li id="instagram"><a class="social ainstagram" href="#!"><i id="social-instagram" class="social-icon ion-social-instagram"></i> &nbspInstagram</a></li>
+                  <li id="twitter"><a class="social atwitter" href="#!"><i id="social-twitter" class="social-icon ion-social-twitter"></i> Twitter</a></li>
+                  <li id="googleplus"><a class="social agoogleplus" href="#!"><i id="social-googleplus" class="social-icon ion-social-googleplus"></i> Google +</a></li>
                 </ul>
               </div>
 

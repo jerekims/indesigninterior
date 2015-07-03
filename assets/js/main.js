@@ -24,27 +24,27 @@ $(document).ready(function(){
 
 
     $('#facebook').hover(function(){
-    	$('#social-facebook').addClass('facebook');
+    	$('#social-facebook').addClass('facebook , ion-social-facebook-outline');
     }, function(){
-    	$('#social-facebook').removeClass('facebook');
+    	$('#social-facebook').removeClass('facebook , ion-social-facebook-outline');
     });
 
      $('#instagram').hover(function(){
-    	$('#social-instagram').addClass('instagram');
+    	$('#social-instagram').addClass('instagram , ion-social-instagram-outline');
     }, function(){
-    	$('#social-instagram').removeClass('instagram');
+    	$('#social-instagram').removeClass('instagram , ion-social-instagram-outline');
     });
 
      $('#twitter').hover(function(){
-    	$('#social-twitter').addClass('twitter');
+    	$('#social-twitter').addClass('twitter , ion-social-twitter-outline');
     }, function(){
-    	$('#social-twitter').removeClass('twitter');
+    	$('#social-twitter').removeClass('twitter , ion-social-twitter-outline');
     });
  
      $('#googleplus').hover(function(){
-    	$('#social-googleplus').addClass('googleplus');
+    	$('#social-googleplus').addClass('googleplus , ion-social-googleplus-outline');
     }, function(){
-    	$('#social-googleplus').removeClass('googleplus');
+    	$('#social-googleplus').removeClass('googleplus , ion-social-googleplus-outline');
     });
 
 

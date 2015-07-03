@@ -18,26 +18,26 @@
       </ul>
       
       <ul class="nav navbar-nav navbar-right">
-      <li><a href="#">Home</a></li>
-        <li><a href="#">About Indesign</a></li>
+      <li><a href="<?php echo base_url(). ''?>">Home</a></li>
+        <li><a href="<?php echo base_url(). 'home/about'?>">About</a></li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Photo Gallery <span class="caret"></span></a>
+          <a href="<?php echo base_url(). 'gallery/photogallery'?>" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Photo Gallery <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Kitchen</a></li>
-            <li><a href="#">Living Room</a></li>
-            <li><a href="#">Bedrooms</a></li>
-            <li><a href="#">Dining Room</a></li>
-            <li><a href="#">Garden</a></li>
-            <li><a href="#">Washroom</a></li>
+            <li><a href="<?php echo base_url(). 'gallery/photogallery'?>">Kitchen</a></li>
+            <li><a href="<?php echo base_url(). 'gallery/photogallery'?>">Living Room</a></li>
+            <li><a href="<?php echo base_url(). 'gallery/photogallery'?>">Bedrooms</a></li>
+            <li><a href="<?php echo base_url(). 'gallery/photogallery'?>">Dining Room</a></li>
+            <li><a href="<?php echo base_url(). 'gallery/photogallery'?>">Garden</a></li>
+            <li><a href="<?php echo base_url(). 'gallery/photogallery'?>">Washroom</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#">Furniture</a></li>
-            <li><a href="#">House Holds</a></li>
+            <li><a href="<?php echo base_url(). 'gallery/photogallery'?>">Furniture</a></li>
+            <li><a href="<?php echo base_url(). 'gallery/photogallery'?>">House Holds</a></li>
           </ul>
         </li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Portfolio</a></li>
+        <li><a href="<?php echo base_url(). 'home/services'?>">Services</a></li>
+        <li><a href="<?php echo base_url(). 'home/portfolio'?>">Portfolio</a></li>
         
-        <li><a href="#"><i class="ion-person"></i> My Account</a></li>
+        <li><a href="<?php echo base_url(). 'user'?>"><i class="ion-person"></i> My Account</a></li>
         
       </ul>
     </div>

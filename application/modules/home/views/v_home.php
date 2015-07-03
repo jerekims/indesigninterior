@@ -105,7 +105,7 @@
           <div class="card col-md-3 offset-s6 home-card">
             <div class="card-image">
               <img src="<?php echo base_url(). 'assets/images/contacts_panel.jpg'?>">
-              <span class="card-title title-block">Contacts</span>
+              <span class="card-title title-block">Photo Gallery</span>
             </div>
             <div class="card-content">
               <p>I am a very simple card. I am good at containing small bits of information.

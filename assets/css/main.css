@@ -235,3 +235,27 @@ a.social:hover{
 .mail{
     letter-spacing: 3px;
 }
+
+.jumbotron-background{
+	 width:100%;
+    height:500px;
+}
+  .shade {
+  	margin-top: 60px;
+    position:relative;
+    width:100%;
+    height:500px;
+}
+
+.shade:after {
+    content:'\A';
+    position:absolute;
+    width:100%; height:100%;
+    top:0; left:0;
+    background:rgba(0,0,0,0.8);
+}
+
+  .servtron{
+  	margin-top:80px; 
+    position: relative;
+  }
