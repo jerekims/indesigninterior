@@ -15,7 +15,7 @@
 |
 */
 
-$config['base_url']	= 'http://'.$_SERVER['SERVER_NAME'].'/indesigninterior/';
+$config['base_url']	= 'http://'.$_SERVER['SERVER_NAME'].'/';
 
 
 /*
