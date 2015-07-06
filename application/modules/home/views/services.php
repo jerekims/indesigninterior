@@ -1,5 +1,13 @@
+
+
+
 <div class="service_module">
+<div class="service-text">
+     <h4>Indesign Interior offers a variety of services for customers</h4>
+     <p>Your <span class="interior">Interior</span> is our <span class="interior">Design</span></p>
+   </div>
 <div class="shade">
+
    <img class="jumbotron-background" src="<?php echo base_url(). 'assets/images/service_image.jpg'?>"/>
 </div>
 
