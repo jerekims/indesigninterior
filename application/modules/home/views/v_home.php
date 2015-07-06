@@ -75,10 +75,10 @@
         <div class="col s12">
 
           <div class="card col-md-3 offset-s12 home-card">
-            <div class="card-image">
+            <a href="<?php echo base_url(). 'home/portfolio'?>"><div class="card-image">
               <img src="<?php echo base_url(). 'assets/images/portfolio_panel.jpg'?>">
               <span class="card-title title-block">Portfolio</span>
-            </div>
+            </div></a>
             <div class="card-content">
               <p>I am a very simple card. I am good at containing small bits of information.
               I am convenient because I require little markup to use effectively.</p>
@@ -89,10 +89,10 @@
           </div>
 
           <div class="card col-md-3 offset-s6 home-card">
-            <div class="card-image">
+            <a href="<?php echo base_url(). 'home/services'?>"><div class="card-image">
               <img src="<?php echo base_url(). 'assets/images/services_panel.jpg'?>">
               <span class="card-title title-block">Services</span>
-            </div>
+            </div></a>
             <div class="card-content">
               <p>I am a very simple card. I am good at containing small bits of information.
               I am convenient because I require little markup to use effectively.</p>
@@ -103,10 +103,10 @@
           </div>
 
           <div class="card col-md-3 offset-s6 home-card">
-            <div class="card-image">
+            <a href="<?php echo base_url(). 'home/contacts'?>"><div class="card-image">
               <img src="<?php echo base_url(). 'assets/images/contacts_panel.jpg'?>">
               <span class="card-title title-block">Photo Gallery</span>
-            </div>
+            </div></a>
             <div class="card-content">
               <p>I am a very simple card. I am good at containing small bits of information.
               I am convenient because I require little markup to use effectively.</p>

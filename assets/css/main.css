@@ -285,4 +285,22 @@ a.social:hover{
      font-size: 35px;
   }
 
+  .leftcardservice{
+  	width:100%;
+  	left: -15px;
+  }
+
+  .servicecardtitle-l{
+  	left:12px !important;
+	top:55%;
+	height:60px;
+	padding-top: 13px;
+  }
+
+  .servicecardtitle-r{
+  	left:12px !important;
+	top:55%;
+	height:60px;
+	padding-top: 13px;
+  }
   
