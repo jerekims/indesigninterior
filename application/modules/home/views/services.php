@@ -16,7 +16,7 @@
         <div class="col s12">
           <div class="card">
             <div class="card-image col s4 leftcardservice">
-              <img class="responsive-img circle" src="<?php echo base_url().'assets/images/compdesigning.jpg'?>">
+              <img class="responsive-img circle serviceimage" src="<?php echo base_url().'assets/images/compdesigning.jpg'?>">
               <span class="card-title title-block servicecardtitle-l">Designing</span>
             </div>
             <div class="card-content col s8 ">
@@ -37,7 +37,7 @@
               I am convenient because I require little markup to use effectively.</p>
             </div>
             <div class="card-image circle col s4 rightcardservice">
-              <img class="responsive-img circle" src="<?php echo base_url().'assets/images/shipping.jpg'?>">
+              <img class="responsive-img circle serviceimage" src="<?php echo base_url().'assets/images/shipping.jpg'?>">
               <span class="card-title title-block servicecardtitle-r">Free Delivery</span>
             </div>
             
@@ -49,7 +49,7 @@
         <div class="col s12 ">
           <div class="card">
             <div class="card-image col s4 leftcardservice">
-              <img class="responsive-img circle" src="<?php echo base_url().'assets/images/packaging.jpg'?>">
+              <img class="responsive-img circle serviceimage" src="<?php echo base_url().'assets/images/packaging.jpg'?>">
               <span class="card-title title-block servicecardtitle-l">Packaging</span>
             </div>
             <div class="card-content col s8">
@@ -70,7 +70,7 @@
               I am convenient because I require little markup to use effectively.</p>
             </div>
             <div class="card-image circle col s4 rightcardservice">
-              <img class="responsive-img circle" src="<?php echo base_url().'assets/images/decoration.jpg'?>">
+              <img class="responsive-img circle serviceimage" src="<?php echo base_url().'assets/images/decoration.jpg'?>">
               <span class="card-title title-block servicecardtitle-r">Decoration</span>
             </div>
             
