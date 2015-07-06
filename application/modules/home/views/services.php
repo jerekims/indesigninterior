@@ -17,7 +17,7 @@
           <div class="card">
             <div class="card-image col s4 leftcardservice">
               <img class="responsive-img circle" src="<?php echo base_url().'assets/images/compdesigning.jpg'?>">
-              <span class="card-title title-block servicecardtitle-l">Designing and Modelling</span>
+              <span class="card-title title-block servicecardtitle-l">Designing</span>
             </div>
             <div class="card-content col s8 ">
               <p>I am a very simple card. I am good at containing small bits of information.
