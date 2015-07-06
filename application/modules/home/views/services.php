@@ -49,8 +49,8 @@
         <div class="col s12 ">
           <div class="card">
             <div class="card-image col s4 leftcardservice">
-              <img class="responsive-img circle serviceimage" src="<?php echo base_url().'assets/images/packaging.jpg'?>">
-              <span class="card-title title-block servicecardtitle-l">Packaging</span>
+              <img class="responsive-img circle serviceimage" src="<?php echo base_url().'assets/images/painting.jpg'?>">
+              <span class="card-title title-block servicecardtitle-l">Painting</span>
             </div>
             <div class="card-content col s8">
               <p>I am a very simple card. I am good at containing small bits of information.
