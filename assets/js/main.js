@@ -11,13 +11,6 @@ $(document).ready(function(){
            }
      );
         
-
-    $(document).ready(function(){
-      $('.slider').slider({
-        height:580
-      });
-    });
-
     $(document).ready(function(){
       $('.parallax').parallax();
     });
@@ -35,6 +28,12 @@ $(document).ready(function(){
     	$('#social-instagram').removeClass('instagram , ion-social-instagram-outline');
     });
 
+     $(document).ready(function(){
+      $('.slider').slider({
+        height:580
+      });
+    });
+
      $('#twitter').hover(function(){
     	$('#social-twitter').addClass('twitter , ion-social-twitter-outline');
     }, function(){
@@ -47,12 +46,11 @@ $(document).ready(function(){
     	$('#social-googleplus').removeClass('googleplus , ion-social-googleplus-outline');
     });
 
-
-
-
-
-
-        
+     $(document).ready(function(){
+    $('.collapsible').collapsible({
+      accordion : false // A setting that changes the collapsible behavior to expandable instead of the default accordion style
+    });
+  });
 
 	$(function () {
 		$.scrollUp({
@@ -72,6 +70,8 @@ $(document).ready(function(){
 	        zIndex: 2147483647 // Z-Index for the overlay
 		});
 	});
+
+
 
 
 });

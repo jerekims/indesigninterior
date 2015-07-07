@@ -307,3 +307,67 @@ a.social:hover{
   .serviceimage{
   	width:400px;
   }
+
+  .collapsible-header i{
+    margin-top: 10px;
+  }
+
+  .ion-ios-lightbulb{
+      color:#f1c40f;
+  }
+
+  .ion-paintbrush{
+      color:#e74c3c;
+  }
+
+  .ion-ios-compose{
+      color:#3498db;
+  }
+
+  .about-content{
+  	margin-top: 50px;
+  	margin-bottom: 60px;
+  	text-align: center;
+  	vertical-align: middle;
+
+  }
+
+  .about-detail{
+     font-family: "Lora";
+     font-size: 38px;
+  }
+
+  .about-subdetail{
+     font-family: "Arimo";
+     font-size: 24px;
+  }
+
+  .imagine{
+  	margin-left: -30px;
+  	margin-top: -18px;
+  	font-family: "Roboto+Slab","Lobster";
+  	color:#2ecc71;
+  	font-weight: bold;
+  	text-decoration: underline;
+  	font-size: 50px;
+  }
+
+  .design{
+  	margin-left: -30px;
+  	font-weight: bold;
+  	font-family: "Roboto+Slab","Lobster";
+  	color:#2ecc71;
+  	margin-top: -18px;
+  	text-decoration: underline;
+  	font-size: 50px;
+  }
+
+  .create{
+    margin-top: -18px;
+  	margin-left: -30px;
+  	font-weight: bold;
+  	font-family: "Roboto+Slab","Lobster";
+  	color:#2ecc71;
+  	text-decoration: underline;
+  	font-size: 50px;
+  }

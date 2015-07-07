@@ -13,8 +13,8 @@
 </div>
 
       <div class="row">
-        <div class="col s12">
-          <div class="card">
+        <div class="  col s12">
+          <div class="card animated fadeInRightBig ">
             <div class="card-image col s4 leftcardservice">
               <img class="responsive-img circle serviceimage" src="<?php echo base_url().'assets/images/compdesigning.jpg'?>">
               <span class="card-title title-block servicecardtitle-l">Designing</span>
@@ -29,8 +29,8 @@
       </div>
 
       <div class="row">
-        <div class="col s12 ">
-          <div class="card">
+        <div class="  col s12 ">
+          <div class="card animated fadeInLeftBig">
             
             <div class="card-content col s8">
               <p>I am a very simple card. I am good at containing small bits of information.
@@ -47,7 +47,7 @@
 
       <div class="row">
         <div class="col s12 ">
-          <div class="card">
+          <div class="card animated fadeInRightBig">
             <div class="card-image col s4 leftcardservice">
               <img class="responsive-img circle serviceimage" src="<?php echo base_url().'assets/images/painting.jpg'?>">
               <span class="card-title title-block servicecardtitle-l">Painting</span>
@@ -63,7 +63,7 @@
 
       <div class="row">
         <div class="col s12 ">
-          <div class="card">
+          <div class="card animated fadeInLeftBig">
             
             <div class="card-content col s8">
               <p>I am a very simple card. I am good at containing small bits of information.
