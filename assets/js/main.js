@@ -36,6 +36,40 @@ $(document).ready(function(){
       });
     });
 
+     // ....Function for registering estates.... //
+ $(function(){
+       $("#contact_mesage").submit(function(){
+
+         var formData = new FormData($(this)[0]);
+ 
+         $.ajax({
+           type: "POST",
+           url: base_url + 'home/sendcomment',
+           data: formData,
+           async: false,
+           cache: false,
+           contentType: false,
+           processData: false,
+           success: function(data){
+               // ....After successful registration, then....//
+              
+              swal({   title: "Comment Sent",   text: "Thank you for your comment",   timer: 3000 });
+
+
+           },
+           error: function(data){
+              swal({   title: "Comment Not Sent",   text: "Please contact the administrator via contacts at the bottom of the page",   timer: 3000 });
+           }
+ 
+         });
+ 
+         return false;  //stop the actual form post !important!
+ 
+      });
+   });
+
+     // ....end of function.... //
+
      $('#twitter').hover(function(){
     	$('#social-twitter').addClass('twitter , ion-social-twitter-outline');
     }, function(){
