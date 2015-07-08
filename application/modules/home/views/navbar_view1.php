@@ -35,9 +35,9 @@
           </ul>
         </li>
         <li><a href="<?php echo base_url(). 'home/services'?>">Services</a></li>
-        <li><a href="<?php echo base_url(). 'home/portfolio'?>">Portfolio</a></li>
+        <li><a href="<?php echo base_url(). 'portfolio/page'?>">Portfolio</a></li>
         
-        <li><a href="<?php echo base_url(). 'user'?>"><i class="ion-person"></i> My Account</a></li>
+        <li><a href="<?php echo base_url(). ''?>"><i class="ion-person"></i> My Account</a></li>
         
       </ul>
     </div>

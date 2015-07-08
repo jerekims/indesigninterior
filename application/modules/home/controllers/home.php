@@ -59,10 +59,6 @@ class Home extends MY_Controller {
 
 	
 
-
-
-
-
 	
 }
 
