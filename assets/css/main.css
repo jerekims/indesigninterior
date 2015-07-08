@@ -371,3 +371,16 @@ a.social:hover{
   	text-decoration: underline;
   	font-size: 50px;
   }
+
+  .contactjumbo{
+  	background-image: url('../images/contacts.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  .welcome-comment{
+  	color:#000000 !important;
+  	font-family: "Ubuntu";
+  }

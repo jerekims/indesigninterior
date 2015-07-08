@@ -15,6 +15,8 @@ $(document).ready(function(){
       $('.parallax').parallax();
     });
 
+    $("#contact_mesage").validationEngine();
+
 
     $('#facebook').hover(function(){
     	$('#social-facebook').addClass('facebook , ion-social-facebook-outline');

@@ -7,9 +7,6 @@ class Portfolio extends MY_Controller {
 	function __construct()
     {
 
-        
-       
-        
         $this->load->library('form_validation');
 
         parent::__construct();
