@@ -11,11 +11,11 @@
 
    <img class="jumbotron-background" src="<?php echo base_url(). 'assets/images/service_image.jpg'?>"/>
 </div>
-
+<div id="container">
 <div class="service-header">
      <h4 class="left-align">SERVICES</h4>
 </div>
-
+<
       <div class="row">
         <div class="  col s8">
           <div class="card animated fadeInRightBig ">
@@ -81,5 +81,5 @@
           </div>
         </div>
       </div>
-
+  </div>
 </div>
