@@ -17,7 +17,7 @@
         
       </ul>
       
-      <ul class="nav navbar-nav navbar-right">
+      <ul class="nav navbar-nav navbar-right top-nav-ul">
       <li><a href="<?php echo base_url(). ''?>">Home</a></li>
         <li><a href="<?php echo base_url(). 'home/about'?>">About</a></li>
         <li><a href="<?php echo base_url(). ''?>">Portfolio</a></li>
