@@ -15,7 +15,10 @@ class MY_Controller extends MX_Controller
         $this->load->module('home');
         $this->load->module('template');
         $this->load->module('portfolio');
+<<<<<<< HEAD
         
+=======
+>>>>>>> 90444482a6d0c726e86d6443b1845482c274b709
         
     }
 

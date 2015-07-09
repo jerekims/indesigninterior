@@ -11,11 +11,17 @@
 
    <img class="jumbotron-background" src="<?php echo base_url(). 'assets/images/service_image.jpg'?>"/>
 </div>
+<<<<<<< HEAD
 <div id="container">
 <div class="service-header">
      <h4 class="left-align">SERVICES</h4>
 </div>
 <
+=======
+
+
+<div class="container">
+>>>>>>> 90444482a6d0c726e86d6443b1845482c274b709
       <div class="row">
         <div class="  col s8">
           <div class="card animated fadeInRightBig ">
@@ -81,5 +87,10 @@
           </div>
         </div>
       </div>
+<<<<<<< HEAD
   </div>
+=======
+    </div>
+
+>>>>>>> 90444482a6d0c726e86d6443b1845482c274b709
 </div>

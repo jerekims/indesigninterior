@@ -10,15 +10,7 @@ class Home extends MY_Controller {
         
         $this->load->model('home/home_model');
         
-        $this->load->library('form_validation');
-
         parent::__construct();
-
-        if ($this->session->userdata('logged_in')) {
-          $this->logged_in = TRUE;
-         } else {
-          //$this->logged_in = FASLE;
-         }
           
     }
 
@@ -57,6 +49,7 @@ class Home extends MY_Controller {
         $this->template->call_template($data);
     }
 
+<<<<<<< HEAD
 
     function portfolio(){
         $data['']='';
@@ -73,12 +66,33 @@ class Home extends MY_Controller {
         $data['content_page']='home/v_account';
         $data['main_footer']='home/footer_view1';
 
+=======
+    function contact()
+    {
+        $data[''] = '';
+        $data['top_navbar1'] = 'home/navbar_view1';
+        $data['content_page'] = 'home/contacts';
+        $data['main_footer'] = 'home/footer_view1';
+        
+        
+>>>>>>> 90444482a6d0c726e86d6443b1845482c274b709
         $this->template->call_template($data);
     }
 
+    function sendcomment()
+    {
+        
+        $email = $this->input->post('useremail');
+        $subject = $this->input->post('usersubject');
+        $message = $this->input->post('usermessage');
 
+        $sent = $this->home_model->send_comment($email, $subject, $message);
 
+        return $sent;
+   
+    }
 
+	
 
 	
 }

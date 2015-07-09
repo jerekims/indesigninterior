@@ -14,6 +14,7 @@ html, body {
 
 .navbar-nav>li>.dropdown-menu>li{
 	width: 100%;
+	/*background-color: #1abc9c;*/
 }
 
 .navbar-nav>li>.dropdown-menu>li:hover{
@@ -26,8 +27,21 @@ html, body {
     
 }
 
-nav ul li{
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+   color: #000000;
+}
 
+.navbar-default .navbar-nav .open .dropdown-menu>li>a{
+	background-color: #1abc9c;
+	color:#000000;
+}
+
+.navbar-nav>li>.dropdown-menu>li:hover{
+	background-color: #1abc9c;
+}
+
+.top-nav-ul{
+	background-color: #1abc9c;
 }
 
 .dropdown-menu>li>a:hover{
@@ -72,10 +86,22 @@ nav ul a{
 	color:#FFFFFF;
 }
 
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover{
+	border-color: #1abc9c;
+}
+
+nav ul li:hover, nav ul li.active{
+	background-color: #1abc9c;
+}
+
+.navbar-nav>li>.dropdown-menu{
+	background-color: #1abc9c;
+}
+
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
 	color:#000000;
 	background-color: #16a085;
-	border-color: #FFFFFF;
+	/*border-color: #FFFFFF;*/
 }
 
 .navbar-default .navbar-nav>li>a{
@@ -160,35 +186,81 @@ nav ul a:hover{
 	text-decoration: none;
 }
 
+.contactsrow{
+	margin-top:0px;
+	border-top:0px;
+	/*height: 100px;*/
+	padding-top: 0px;
+	padding-bottom: 0px;
+	bottom:0;
+
+}
+
 footer.page-footer{
 	margin-top:0px;
 	border-top:0px;
-	/*padding-top: 0px;*/
+	height: 200px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	bottom:0;
+}
+
+.copyright{
+	height:30px;
+	margin-top: 10px;
+	bottom: 0;
+    background-color: #00B28F;
+    color:#FFFFFF;
+}
+
+.indint{
+   margin-top: 0px;
+   margin-bottom: 0px;
 }
 
 div.vertical-line{
   width: 0px; /* Use only border style */
-  height: 220px;
+  height: 180px;
   float: left; 
   border: 1px inset; /* This is default border style for <hr> tag */
   margin-right: 10px;
+  /*margin-top: 5px;*/
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: 0;
+  top:5px;
+}
+
+.home-footer{
+	margin:inherit;
 }
 
 .home-footer-title{
+	height: 150px;
+	margin-top: 5px;
 	font-family: "Ubuntu";
 }
 
 .limited{
+	margin-top:5px ;
+	margin-bottom: 10px;
 	font-size: 17px;
 	letter-spacing: 5px;
 }
 
+.idc{
+	margin-top:0px ;
+	margin-bottom: 0px;
+}
+
 .reach{
+	margin: 5px;
 	font-size: 15px;
 }
 
 .home-contacts-title{
-    font-family: "Montserrat";
+    margin-top: 10px;
+    font-family: "Montserrat","PT+Sans";
     text-decoration: underline;
 }
 
@@ -226,13 +298,17 @@ a.social:hover{
 }
 
 .twitter{
-	color:rgba(52, 152, 219,1.0);
+	color:#2980b9;
 	font-weight: bold;
 }
 
 .instagram{
 	color:#993300;
 	font-weight: bold;
+}
+
+.reserve{
+	padding-top:5px;
 }
 
 .mail{
@@ -269,10 +345,8 @@ a.social:hover{
   	font-size: 29px;
   	font-family: "Ubuntu";
   	color:#FFFFFF;
-  	/*text-align: center;*/
   	margin-left: 45px;
   	vertical-align: middle;
-  	/*margin-top: 50px;*/
   	font-weight: bold;
   	top: 75px;
   	z-index: 9;
@@ -372,6 +446,7 @@ a.social:hover{
   	font-size: 50px;
   }
 
+<<<<<<< HEAD
 
   /*portfolio page */
   .portfolio-header{
@@ -380,4 +455,17 @@ a.social:hover{
 /*service page*/
 .service-header{
     margin:10px auto 50px auto;
+=======
+  .contactjumbo{
+  	background-image: url('../images/contacts.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  .welcome-comment{
+  	color:#000000 !important;
+  	font-family: "Ubuntu";
+>>>>>>> 90444482a6d0c726e86d6443b1845482c274b709
   }
