@@ -241,14 +241,14 @@ a.social:hover{
 
 .jumbotron-background{
 	 width:100%;
-    height:500px;
+    height:200px;
 }
   .shade {
   	/*margin-top: 30px;*/
   	top:-80px;
     position:relative;
     width:100%;
-    height:500px;
+    height:200px;
 }
 
 .shade:after {
@@ -274,7 +274,7 @@ a.social:hover{
   	vertical-align: middle;
   	/*margin-top: 50px;*/
   	font-weight: bold;
-  	top: 350px;
+  	top: 75px;
   	z-index: 9;
   	opacity: 1;
   }
@@ -370,4 +370,14 @@ a.social:hover{
   	color:#2ecc71;
   	text-decoration: underline;
   	font-size: 50px;
+  }
+
+
+  /*portfolio page */
+  .portfolio-header{
+    margin:50px auto 50px auto;
+  }
+/*service page*/
+.service-header{
+    margin:10px auto 50px auto;
   }

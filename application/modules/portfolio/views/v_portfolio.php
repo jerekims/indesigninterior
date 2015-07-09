@@ -12,12 +12,8 @@
    <img class="jumbotron-background" src="<?php echo base_url(). 'assets/images/service_image.jpg'?>"/>
 </div>
 
-<div class="service-header">
-     <h4 class="left-align">SERVICES</h4>
-</div>
-
       <div class="row">
-        <div class="  col s8">
+        <div class="  col s12">
           <div class="card animated fadeInRightBig ">
             <div class="card-image col s4 leftcardservice">
               <img class="responsive-img circle serviceimage" src="<?php echo base_url().'assets/images/compdesigning.jpg'?>">
@@ -33,7 +29,7 @@
       </div>
 
       <div class="row">
-        <div class="  col s8">
+        <div class="  col s12 ">
           <div class="card animated fadeInLeftBig">
             
             <div class="card-content col s8">
@@ -50,7 +46,7 @@
       </div>
 
       <div class="row">
-        <div class="col s8 ">
+        <div class="col s12 ">
           <div class="card animated fadeInRightBig">
             <div class="card-image col s4 leftcardservice">
               <img class="responsive-img circle serviceimage" src="<?php echo base_url().'assets/images/painting.jpg'?>">
@@ -66,7 +62,7 @@
       </div>
 
       <div class="row">
-        <div class="col s8 ">
+        <div class="col s12 ">
           <div class="card animated fadeInLeftBig">
             
             <div class="card-content col s8">

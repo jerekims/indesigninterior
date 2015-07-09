@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default navbar-fixed-top">
+/<nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
    
     <div class="navbar-header">
@@ -18,10 +18,10 @@
       </ul>
       
       <ul class="nav navbar-nav navbar-right">
-      <li><a href="<?php echo base_url(). ''?>">Home</a></li>
-        <li><a href="<?php echo base_url(). 'home/about'?>">About</a></li>
+      <li><a href="<?php echo base_url(). ''?>">HOME</a></li>
+        <li><a href="<?php echo base_url(). 'home/about'?>">ABOUT</a></li>
         <li class="dropdown">
-          <a href="<?php echo base_url(). 'gallery/photogallery'?>" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Photo Gallery <span class="caret"></span></a>
+          <a href="<?php echo base_url(). 'gallery/photogallery'?>" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PROJECT GALLERY<span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="<?php echo base_url(). 'gallery/photogallery'?>">Kitchen</a></li>
             <li><a href="<?php echo base_url(). 'gallery/photogallery'?>">Living Room</a></li>
@@ -34,10 +34,10 @@
             <li><a href="<?php echo base_url(). 'gallery/photogallery'?>">House Holds</a></li>
           </ul>
         </li>
-        <li><a href="<?php echo base_url(). 'home/services'?>">Services</a></li>
-        <li><a href="<?php echo base_url(). 'home/portfolio'?>">Portfolio</a></li>
+        <li><a href="<?php echo base_url(). 'home/services'?>">SERVICES</a></li>
+        <li><a href="<?php echo base_url(). 'home/portfolio'?>">PORTFOLIO</a></li>
         
-        <li><a href="<?php echo base_url(). 'user'?>"><i class="ion-person"></i> My Account</a></li>
+        <li><a href="<?php echo base_url(). 'home/account'?>"><i class="ion-person"></i> My Account</a></li>
         
       </ul>
     </div>
