@@ -12,6 +12,8 @@
    <img class="jumbotron-background" src="<?php echo base_url(). 'assets/images/service_image.jpg'?>"/>
 </div>
 
+
+<div class="container">
       <div class="row">
         <div class="  col s12">
           <div class="card animated fadeInRightBig ">
@@ -77,5 +79,6 @@
           </div>
         </div>
       </div>
+    </div>
 
 </div>
