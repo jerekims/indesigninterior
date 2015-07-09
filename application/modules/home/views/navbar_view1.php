@@ -20,7 +20,7 @@
       <ul class="nav navbar-nav navbar-right top-nav-ul">
       <li><a href="<?php echo base_url(). ''?>">Home</a></li>
         <li><a href="<?php echo base_url(). 'home/about'?>">About</a></li>
-        <li><a href="<?php echo base_url(). 'Portfolio/portfolio'?>">Portfolio</a></li>
+        <li><a href="<?php echo base_url(). 'home/portfolio'?>">Portfolio</a></li>
         <li><a href="<?php echo base_url(). 'home/services'?>">Services</a></li>
         <li><a href="<?php echo base_url(). 'home/contact'?>">Contacts</a></li>
         
