@@ -1,18 +1,20 @@
 <footer class="page-footer">
-          <div class="container">
-            <div class="row">
-              <div class="col l6 s12 home-footer-title">
-                <h3 class="white-text">Indesign Interiors <br/><span class="limited">Limited</span></h3>
-                <p class="grey-text text-lighten-4">imagine /design/ create</p>
+          
+            <div class="row contactsrow">
+              <div class="col-sm-8 home-footer-title">
+              <div class="container">
+                <h3 class="white-text indint">Indesign Interiors&nbsp<span class="limited">Limited</span></h3>
+                <p class="grey-text text-lighten-4 idc">imagine /design/ create</p>
                 <hr/>
                 <p class="reach">Enterprise Road, opposite road B junction</p>
                 <p class="reach">P.O Box 939-1000 Thika, Kenya</p>
                 <p class="reach">Tel: +254 713 808 646, 0722 463 461</p>
-                
+                </div>
               </div>
 
-              <div class="col l4 offset-l2 s12">
+              <div class="col-sm-4">
                <div class="vertical-line"></div>
+               <div class="container">
                 <h5 class="white-text"><span class="home-contacts-title">Contact Details</span></h5>
                 <ul class="social-contacts">
                   <li id="facebook"><a class="social afacebook" href="#!"><i id="social-facebook" class="social-icon ion-social-facebook"></i> &nbsp Facebook</a></li>
@@ -20,12 +22,13 @@
                   <li id="twitter"><a class="social atwitter" href="#!"><i id="social-twitter" class="social-icon ion-social-twitter"></i> Twitter</a></li>
                   <li id="googleplus"><a class="social agoogleplus" href="#!"><i id="social-googleplus" class="social-icon ion-social-googleplus"></i> Google +</a></li>
                 </ul>
+                </div>
               </div>
 
             </div>
-          </div>
-          <div class="footer-copyright">
-            <div class="container">
+          
+          <div class="copyright">
+            <div class="container reserve">
             © 2015 All Rights Reserved
             <a class="grey-text text-lighten-4 right mail" href="#!">indesigninteriorltd@yahoo.com</a>
             </div>
