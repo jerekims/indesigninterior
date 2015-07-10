@@ -80,7 +80,10 @@ class Home extends MY_Controller {
     //     $this->template->call_template($data);
     // }
 	
+<<<<<<< HEAD
 
+=======
+>>>>>>> 20b1b941e4671b65c46510448b4e0d7a74f18890
 
     function sendcomment()
     {
@@ -88,7 +91,6 @@ class Home extends MY_Controller {
         $email = $this->input->post('useremail');
         $subject = $this->input->post('usersubject');
         $message = $this->input->post('usermessage');
-
         $sent = $this->home_model->send_comment($email, $subject, $message);
 
         return $sent;
