@@ -50,8 +50,7 @@ class Home extends MY_Controller {
     }
 
 
-<<<<<<< HEAD
-=======
+
     function contact()
     {
         $data[''] = '';
@@ -62,8 +61,6 @@ class Home extends MY_Controller {
         $this->template->call_template($data);
     } 
         
-
->>>>>>> 9548c3ffcb3e994c8c02034054ba94a1107e0161
 
     function portfolio(){
         $data['']='';
@@ -83,23 +80,7 @@ class Home extends MY_Controller {
     //     $this->template->call_template($data);
     // }
 	
-<<<<<<< HEAD
- 
-    function contact()
-    {
-        $data[''] = '';
-        $data['top_navbar1'] = 'home/navbar_view1';
-        $data['content_page'] = 'home/contacts';
-        $data['main_footer'] = 'home/footer_view1';
-        
-        
 
-        $this->template->call_template($data);
-    }
-=======
-   
-      
->>>>>>> 9548c3ffcb3e994c8c02034054ba94a1107e0161
 
     function sendcomment()
     {

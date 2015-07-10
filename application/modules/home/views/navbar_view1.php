@@ -17,17 +17,7 @@
         
       </ul>
       
-<<<<<<< HEAD
 
-      <ul class="nav navbar-nav navbar-right top-nav-ul">
-      <li><a href="<?php echo base_url(). ''?>">HOME</a></li>
-        <li><a href="<?php echo base_url(). 'home/about'?>">ABOUT</a></li>
-        <li><a href="<?php echo base_url(). 'home/portfolio'?>">PORTFOLIO</a></li>
-        
-        <li class="dropdown">
-          <a href="<?php echo base_url(). 'gallery/photogallery/all'?>" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PROJECT GALLERY<span class="caret"></span></a>
-
-=======
       <ul class="nav navbar-nav navbar-right top-nav-ul">
       <li><a href="<?php echo base_url(). ''?>">Home</a></li>
         <li><a href="<?php echo base_url(). 'home/about'?>">About</a></li>
@@ -37,7 +27,6 @@
         
         <li class="dropdown">
           <a href="<?php echo base_url(). 'gallery/photogallery/all'?>" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Photo Gallery <span class="caret"></span></a>
->>>>>>> 9548c3ffcb3e994c8c02034054ba94a1107e0161
           <ul class="dropdown-menu">
             <li><a href="<?php echo base_url(). 'gallery/photogallery/kitchen'?>">Kitchen</a></li>
             <li><a href="<?php echo base_url(). 'gallery/photogallery/'?>">Living Room</a></li>
@@ -50,21 +39,6 @@
             <li><a href="<?php echo base_url(). 'gallery/photogallery'?>">House Holds</a></li>
           </ul>
         </li>
-        
-        
-<<<<<<< HEAD
-        
-
-        <li><a href="<?php echo base_url(). 'home/services'?>">SERVICES</a></li>
-        <li><a href="<?php echo base_url(). 'home/contact'?>">CONTACTS</a></li>
-        
-        
-        <!-- <li><a href="<?php echo base_url(). ''?>"><i class="ion-person"></i> My Account</a></li> -->
-
-=======
-        
-        <!-- <li><a href="<?php echo base_url(). ''?>"><i class="ion-person"></i> My Account</a></li> -->
->>>>>>> 9548c3ffcb3e994c8c02034054ba94a1107e0161
         
       </ul>
     </div>
