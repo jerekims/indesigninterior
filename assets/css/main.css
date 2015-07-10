@@ -353,6 +353,11 @@ a.social:hover{
   	opacity: 1;
   }
 
+  .service_header{
+     text-align: center;
+     margin-top: 0px;
+  }
+
   .interior{
      font-family:"Lobster","Oswald","Arimo","Lora","Bitter","Ubuntu";
      color:#1abc9c;
@@ -446,16 +451,7 @@ a.social:hover{
   	font-size: 50px;
   }
 
-<<<<<<< HEAD
 
-  /*portfolio page */
-  .portfolio-header{
-    margin:50px auto 50px auto;
-  }
-/*service page*/
-.service-header{
-    margin:10px auto 50px auto;
-=======
   .contactjumbo{
   	background-image: url('../images/contacts.jpg');
     background-repeat: no-repeat;
@@ -467,5 +463,21 @@ a.social:hover{
   .welcome-comment{
   	color:#000000 !important;
   	font-family: "Ubuntu";
->>>>>>> 90444482a6d0c726e86d6443b1845482c274b709
   }
+
+
+  /*portfolio page*/
+
+  .portfolioimage {
+    margin-top: 10px;
+    width: 250px;
+    height: 250px !important;
+  }
+  .portfolio-header{
+    margin-top: 80px;
+    margin-left: 0px
+  }
+
+ element {
+  height: 500px;
+ }

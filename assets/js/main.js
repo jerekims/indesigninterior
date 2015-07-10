@@ -108,8 +108,10 @@ $(document).ready(function(){
 	});
 
 
-    $(document).ready(function(){
-      $('.portfolioimage').fadein(10000);
-    });
+    
+    
+  
+    $('.materialboxed').materialbox();
+        
 
 });

@@ -8,22 +8,16 @@
      <p>Your <span class="interior">Interior</span> is our <span class="interior">Design</span></p>
    </div>
 <div class="shade">
-
    <img class="jumbotron-background" src="<?php echo base_url(). 'assets/images/service_image.jpg'?>"/>
 </div>
-<<<<<<< HEAD
-<div id="container">
-<div class="service-header">
-     <h4 class="left-align">SERVICES</h4>
-</div>
-<
-=======
 
+<div  class="service_header">
+  <h3>SERVICES</h3>
+</div>
 
 <div class="container">
->>>>>>> 90444482a6d0c726e86d6443b1845482c274b709
       <div class="row">
-        <div class="  col s8">
+        <div class="  col s12">
           <div class="card animated fadeInRightBig ">
             <div class="card-image col s4 leftcardservice">
               <img class="responsive-img circle serviceimage" src="<?php echo base_url().'assets/images/compdesigning.jpg'?>">
@@ -39,7 +33,7 @@
       </div>
 
       <div class="row">
-        <div class="  col s8">
+        <div class="  col s12">
           <div class="card animated fadeInLeftBig">
             
             <div class="card-content col s8">
@@ -56,7 +50,7 @@
       </div>
 
       <div class="row">
-        <div class="col s8 ">
+        <div class="col s12 ">
           <div class="card animated fadeInRightBig">
             <div class="card-image col s4 leftcardservice">
               <img class="responsive-img circle serviceimage" src="<?php echo base_url().'assets/images/painting.jpg'?>">
@@ -72,7 +66,7 @@
       </div>
 
       <div class="row">
-        <div class="col s8 ">
+        <div class="col s12">
           <div class="card animated fadeInLeftBig">
             
             <div class="card-content col s8">
@@ -87,10 +81,6 @@
           </div>
         </div>
       </div>
-<<<<<<< HEAD
-  </div>
-=======
-    </div>
 
->>>>>>> 90444482a6d0c726e86d6443b1845482c274b709
+    </div>
 </div>
