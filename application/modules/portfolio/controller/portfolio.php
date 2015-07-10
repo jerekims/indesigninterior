@@ -21,6 +21,25 @@ class Portfolio extends MY_Controller {
          }
           
     }
+
+
+    function portfolio()
+    {
+        $data[''] = '';
+        $data['top_navbar1'] = 'home/navbar_view1';
+        $data['content_page'] = 'portfolio/v_portfolio';
+        $data['main_footer'] = 'home/footer_view1';
+        
+        
+        $this->template->call_template($data);
+    }
+	
+    
+
+
+
+
+
 	
 }
 

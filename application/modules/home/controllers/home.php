@@ -50,6 +50,20 @@ class Home extends MY_Controller {
     }
 
 
+<<<<<<< HEAD
+=======
+    function contact()
+    {
+        $data[''] = '';
+        $data['top_navbar1'] = 'home/navbar_view1';
+        $data['content_page'] = 'home/contacts';
+        $data['main_footer'] = 'home/footer_view1';
+
+        $this->template->call_template($data);
+    } 
+        
+
+>>>>>>> 9548c3ffcb3e994c8c02034054ba94a1107e0161
 
     function portfolio(){
         $data['']='';
@@ -69,6 +83,7 @@ class Home extends MY_Controller {
     //     $this->template->call_template($data);
     // }
 	
+<<<<<<< HEAD
  
     function contact()
     {
@@ -81,6 +96,10 @@ class Home extends MY_Controller {
 
         $this->template->call_template($data);
     }
+=======
+   
+      
+>>>>>>> 9548c3ffcb3e994c8c02034054ba94a1107e0161
 
     function sendcomment()
     {
@@ -94,6 +113,21 @@ class Home extends MY_Controller {
         return $sent;
    
     }
+
+
+    // function all_estate_combo()
+    // {
+    //     $estates = $this->estate_model->get_all_estates();
+    //     // echo "<pre>";print_r($estates);die();
+    //     $this->estates_combo .= '<select name="table_search_estate" id="table_search_estate" onchange="get_estate()" class="form-control input-sm js-example-placeholder-single pull-right" style="width: 350px;">';
+    //     $this->estates_combo .= '<option value="0" selected>Select: Estate Name</option>';
+    //     foreach ($estates as $key => $value) {
+    //         $this->estates_combo .= '<option value="'.$value['Estate ID'].'">'.$value['Estate Name'].'</option>';
+    //     }
+    //     $this->estates_combo .= '</select>';
+
+    //     return $this->estates_combo;
+    // }
 
 	
 

@@ -17,7 +17,11 @@
 
 <div class="container">
       <div class="row">
+<<<<<<< HEAD
         <div class="  col s12">
+=======
+        <div class="col s12">
+>>>>>>> 9548c3ffcb3e994c8c02034054ba94a1107e0161
           <div class="card animated fadeInRightBig ">
             <div class="card-image col s4 leftcardservice">
               <img class="responsive-img circle serviceimage" src="<?php echo base_url().'assets/images/compdesigning.jpg'?>">
@@ -33,7 +37,11 @@
       </div>
 
       <div class="row">
+<<<<<<< HEAD
         <div class="  col s12">
+=======
+        <div class="col s12 ">
+>>>>>>> 9548c3ffcb3e994c8c02034054ba94a1107e0161
           <div class="card animated fadeInLeftBig">
             
             <div class="card-content col s8">
@@ -66,7 +74,11 @@
       </div>
 
       <div class="row">
+<<<<<<< HEAD
         <div class="col s12">
+=======
+        <div class="col s12 ">
+>>>>>>> 9548c3ffcb3e994c8c02034054ba94a1107e0161
           <div class="card animated fadeInLeftBig">
             
             <div class="card-content col s8">
@@ -81,6 +93,11 @@
           </div>
         </div>
       </div>
+<<<<<<< HEAD
 
     </div>
+=======
+    </div>
+
+>>>>>>> 9548c3ffcb3e994c8c02034054ba94a1107e0161
 </div>

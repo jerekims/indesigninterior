@@ -317,14 +317,14 @@ a.social:hover{
 
 .jumbotron-background{
 	 width:100%;
-    height:200px;
+    height:500px;
 }
   .shade {
   	/*margin-top: 30px;*/
   	top:-80px;
     position:relative;
     width:100%;
-    height:200px;
+    height:500px;
 }
 
 .shade:after {
@@ -348,7 +348,7 @@ a.social:hover{
   	margin-left: 45px;
   	vertical-align: middle;
   	font-weight: bold;
-  	top: 75px;
+  	top: 350px;
   	z-index: 9;
   	opacity: 1;
   }
@@ -451,7 +451,10 @@ a.social:hover{
   	font-size: 50px;
   }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9548c3ffcb3e994c8c02034054ba94a1107e0161
   .contactjumbo{
   	background-image: url('../images/contacts.jpg');
     background-repeat: no-repeat;
@@ -463,6 +466,7 @@ a.social:hover{
   .welcome-comment{
   	color:#000000 !important;
   	font-family: "Ubuntu";
+<<<<<<< HEAD
   }
 
 
@@ -481,3 +485,6 @@ a.social:hover{
  element {
   height: 500px;
  }
+=======
+  }
+>>>>>>> 9548c3ffcb3e994c8c02034054ba94a1107e0161
